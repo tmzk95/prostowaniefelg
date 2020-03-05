@@ -56,7 +56,6 @@ let contactBody =
         </span> Lublin, ul. Hajdowska 8
       </div>
     </div>
-    <div style="overflow:hidden;width: 100%;position: relative;"><iframe width="100%" height="400" src="https://maps.google.com/maps?hl=en&amp;q=Hajdowska 8+(Adres)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 100%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a href="https://myfreemp3.in/">myfreemp3</a> </small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
   </div>`;
 
 let priceListBody =
