@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: #f1f2f6;
+  background-color: #eceef7;
   height: 100%;
 }
 
@@ -68,9 +68,9 @@ body {
 }
 
 .badge-img {
-  opacity: 0.7;
+  opacity: 0.4;
   display: inline;
-  filter: brightness(4) sepia() hue-rotate(190deg);
+  filter: sepia() brightness(3) hue-rotate(190deg);
 }
 
 .badge-img img {
@@ -96,8 +96,8 @@ body {
 .main-button {
   padding: 15px 60px;
   margin-top: 75px;
-  background: linear-gradient(150deg, #082b4d, #04327c);
-  color: #fffe;
+  color: #fff;
+  background-color: #3862ec;
   font-weight: 600;
   border-radius: 12px;
   display: inline-block;
@@ -106,7 +106,8 @@ body {
 }
 
 .main-button:hover {
-  background: linear-gradient(150deg, #1863a8, #00296b);
+  color: #fff;
+  background-color: #597cf0;
 }
 
 .panel-column {
@@ -128,8 +129,7 @@ body {
 
 .item-bold-text {
   font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
+  color: #fff;
 }
 
 .item-header-center {
@@ -154,7 +154,7 @@ body {
 .item-subtitle-small {
   font-size: 12px;
   margin-bottom: 5px;
-  color: #fff9;
+  color: #fffa;
 }
 
 .item-subtitle-center {
@@ -194,7 +194,7 @@ body {
 
 .item-blue {
   color: #fffd;
-  background: linear-gradient(150deg, #2e79eb, #281ccc);
+  background: linear-gradient(150deg, #3862ec, #3862ec);
 }
 
 .item-white {
@@ -206,7 +206,8 @@ body {
   color: #fffd;
   height: 95px;
   background: #fdc500;
-  background: linear-gradient(150deg, #083c8fee, #083c8fee);
+  background: linear-gradient(150deg, #96b3e1, #281ccc);
+  background: linear-gradient(150deg, #2e79eb, #281ccc);
 }
 
 .photo-long {
@@ -254,6 +255,24 @@ body {
   font-size: 18px;
 }
 
+.main-menu {
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0009;
+  text-transform: uppercase;
+}
+
+.menu-option-bold {
+  font-weight: 700;
+  color: #000b;
+}
+
 @media (max-width: 1300px) {
   body {
     height: initial;
@@ -293,6 +312,12 @@ body {
   .panel-column-right {
     max-width: 400px;
     flex-direction: column-reverse;
+  }
+
+  .main-menu {
+    position: initial;
+    margin-top: 0px;
+    align-self: center;
   }
 }
 
@@ -364,5 +389,10 @@ body {
   .button-container {
     display: flex;
     justify-content: center;
+  }
+
+  .main-menu {
+    margin-bottom: 30px;
+    align-self: flex-start;
   }
 }
